@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/tasks
+END
+Responder.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/tasks/Responder.java
+END
+DNSTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/tasks/DNSTask.java
+END
+RecordReaper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/tasks/RecordReaper.java
+END

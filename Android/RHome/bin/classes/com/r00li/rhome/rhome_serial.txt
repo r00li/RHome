@@ -1,0 +1,33 @@
+RHome Serial protocol!
+
+----------------------------------------------------
+
+Simple character based commands are sent between
+arduino and the host. Each message consists of 
+two character op code, equal sign, message body
+and a null terminating character:
+
+	OP=xxxxx\0
+
+Below is a list of currently implemented op codes:
+(op codes in the examples do not show the null
+terminator!)
+
+----------------------------------------------------
+
+LU=[light number: 1,2,É][status: 1(ON), 0(OFF)]
+
+example:
+	LU=21
+	-> Turns the number 2 light ON
+
+notes:
+	status code 3 can be used to dim the
+	lights if diming is supported.
+
+	controller (arduino) responds by 
+	resending the message to confirm that
+	the message has been received
+
+
+TO BE COMPLETED AT A LATER DATE.

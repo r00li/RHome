@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/156/trunk/src/org/tunesremote
+END
+SquareCover.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/156/trunk/src/org/tunesremote/SquareCover.java
+END
+AlbumsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/146/trunk/src/org/tunesremote/AlbumsActivity.java
+END
+LibraryBrowseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/139/trunk/src/org/tunesremote/LibraryBrowseActivity.java
+END
+TracksActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/151/trunk/src/org/tunesremote/TracksActivity.java
+END
+NowPlayingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/126/trunk/src/org/tunesremote/NowPlayingActivity.java
+END
+PairingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/104/trunk/src/org/tunesremote/PairingActivity.java
+END
+PlaylistListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/69/trunk/src/org/tunesremote/PlaylistListener.java
+END
+FastScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/104/trunk/src/org/tunesremote/FastScrollView.java
+END
+PlaylistsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/141/trunk/src/org/tunesremote/PlaylistsFragment.java
+END
+BackendService.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/154/trunk/src/org/tunesremote/BackendService.java
+END
+ArtistsListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/146/trunk/src/org/tunesremote/ArtistsListFragment.java
+END
+BaseBrowseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/126/trunk/src/org/tunesremote/BaseBrowseActivity.java
+END
+WizardActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/trunk/src/org/tunesremote/WizardActivity.java
+END
+AlphaView.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/src/org/tunesremote/AlphaView.java
+END
+TagListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/trunk/src/org/tunesremote/TagListener.java
+END
+LibraryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/126/trunk/src/org/tunesremote/LibraryActivity.java
+END
+SearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/146/trunk/src/org/tunesremote/SearchActivity.java
+END
+ServerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/25/trunk/src/org/tunesremote/ServerActivity.java
+END
+PlaylistsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/69/trunk/src/org/tunesremote/PlaylistsAdapter.java
+END
+NowPlayingAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/130/trunk/src/org/tunesremote/NowPlayingAction.java
+END
+FadeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/151/trunk/src/org/tunesremote/FadeView.java
+END
+PrefsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/149/trunk/src/org/tunesremote/PrefsActivity.java
+END
+AllAlbumsListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/151/trunk/src/org/tunesremote/AllAlbumsListFragment.java
+END
+ControlActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/156/trunk/src/org/tunesremote/ControlActivity.java
+END

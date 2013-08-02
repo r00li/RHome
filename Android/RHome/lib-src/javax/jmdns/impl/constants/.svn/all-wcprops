@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/constants
+END
+DNSOperationCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSOperationCode.java
+END
+DNSConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/constants/DNSConstants.java
+END
+DNSLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSLabel.java
+END
+DNSRecordType.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSRecordType.java
+END
+DNSState.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSState.java
+END
+DNSOptionCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSOptionCode.java
+END
+DNSRecordClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSRecordClass.java
+END
+DNSResultCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/constants/DNSResultCode.java
+END

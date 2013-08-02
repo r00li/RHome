@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl
+END
+DNSOutgoing.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSOutgoing.java
+END
+NetworkTopologyDiscoveryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/91/trunk/src/javax/jmdns/impl/NetworkTopologyDiscoveryImpl.java
+END
+DNSEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSEntry.java
+END
+DNSIncoming.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSIncoming.java
+END
+DNSCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSCache.java
+END
+JmmDNSImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/JmmDNSImpl.java
+END
+NetworkTopologyEventImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/NetworkTopologyEventImpl.java
+END
+DNSTaskStarter.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSTaskStarter.java
+END
+DNSQuestion.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSQuestion.java
+END
+DNSRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSRecord.java
+END
+DNSStatefulObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSStatefulObject.java
+END
+ServiceEventImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/ServiceEventImpl.java
+END
+NameRegister.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/NameRegister.java
+END
+DNSStatefulObjectSemaphore.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/DNSStatefulObjectSemaphore.java
+END
+DNSMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/DNSMessage.java
+END
+HostInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/HostInfo.java
+END
+ListenerStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/ListenerStatus.java
+END
+DNSListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/DNSListener.java
+END
+JmDNSImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/JmDNSImpl.java
+END
+ServiceInfoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/ServiceInfoImpl.java
+END
+SocketListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/SocketListener.java
+END

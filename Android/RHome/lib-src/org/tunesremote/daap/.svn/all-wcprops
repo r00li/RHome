@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/151/trunk/src/org/tunesremote/daap
+END
+PairingServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/104/trunk/src/org/tunesremote/daap/PairingServer.java
+END
+Playlist.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/17/trunk/src/org/tunesremote/daap/Playlist.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/148/trunk/src/org/tunesremote/daap/Session.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/151/trunk/src/org/tunesremote/daap/Status.java
+END
+Library.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/128/trunk/src/org/tunesremote/daap/Library.java
+END
+RequestHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/137/trunk/src/org/tunesremote/daap/RequestHelper.java
+END
+Speaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/54/trunk/src/org/tunesremote/daap/Speaker.java
+END
+ResponseParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/96/trunk/src/org/tunesremote/daap/ResponseParser.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/81/trunk/src/org/tunesremote/daap/Response.java
+END

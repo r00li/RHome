@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/156/trunk/src/org/tunesremote/util
+END
+Helper.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/156/trunk/src/org/tunesremote/util/Helper.java
+END
+BackgroundSynth.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/156/trunk/src/org/tunesremote/util/BackgroundSynth.java
+END
+ThreadExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/139/trunk/src/org/tunesremote/util/ThreadExecutor.java
+END
+NotificationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/156/trunk/src/org/tunesremote/util/NotificationService.java
+END
+ClickSpan.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/156/trunk/src/org/tunesremote/util/ClickSpan.java
+END
+RecentProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/trunk/src/org/tunesremote/util/RecentProvider.java
+END
+LockscreenReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/156/trunk/src/org/tunesremote/util/LockscreenReceiver.java
+END
+PairingDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/96/trunk/src/org/tunesremote/util/PairingDatabase.java
+END

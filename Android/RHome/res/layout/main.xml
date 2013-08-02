@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <GridLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5pt"
+                android:layout_marginTop="10pt"
+                android:alignmentMode="alignBounds"
+                android:columnCount="5"
+                android:columnOrderPreserved="true"
+                android:rowCount="5"
+                android:useDefaultMargins="true" >
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="93dp"
+                    android:layout_height="180dp"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="0"
+                    android:layout_rowSpan="4"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/help_a_vec" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_row="0"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="Main light:" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/primaryLightIndicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:clickable="false"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/primaryLightButtonOn"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:onClick="buttonLight"
+                            android:text="On" />
+
+                        <Button
+                            android:id="@+id/primaryLightButtonOff"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="buttonLight"
+                            android:text="Off" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="Secondary light:" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/secondaryLightIndicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:clickable="false"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/secondaryLightButtonOn"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:onClick="buttonLight"
+                            android:text="On" />
+
+                        <Button
+                            android:id="@+id/secondaryLightButtonOff"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="buttonLight"
+                            android:text="Off" />
+                        <!--
+                        <Button
+                            android:id="@+id/secondaryLightButtonDimm"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="buttonLight"
+                            android:text="Dimm" /> 
+                        -->
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="40dp"
+                    android:layout_row="1"
+                    android:layout_rowSpan="2"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/blind3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="left"
+                    android:layout_row="1"
+                    android:layout_rowSpan="2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:layout_row="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="Left:" />
+
+                            <Button
+                                android:id="@+id/buttonleftBlindPlus"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:onClick="buttonBlind"
+                                android:text="+" />
+
+                            <Button
+                                android:id="@+id/buttonLeftBlindMinus"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="buttonBlind"
+                                android:text="-" />
+
+                            <ProgressBar
+                                android:id="@+id/leftBlindStatus"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="7dp"
+                                android:max="2"
+                                android:progress="1"
+                                android:scaleY="3" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text=" Right:" />
+
+                            <Button
+                                android:id="@+id/buttonRightBlindPlus"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:onClick="buttonBlind"
+                                android:text="+" />
+
+                            <Button
+                                android:id="@+id/buttonRightBlindMinus"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="buttonBlind"
+                                android:text="-" />
+
+                            <ProgressBar
+                                android:id="@+id/rightBlindStatus"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="7dp"
+                                android:max="2"
+                                android:progress="1"
+                                android:scaleY="3" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text=" Both:" />
+
+                            <Button
+                                android:id="@+id/buttonBothBlindsPlus"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:onClick="buttonBlind"
+                                android:text="+" />
+
+                            <Button
+                                android:id="@+id/buttonBothBlindsMinus"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="buttonBlind"
+                                android:text="-" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/blindsManualCheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:onClick="buttonBlind"
+                        android:text="Manual control" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginLeft="60dp"
+                    android:layout_row="0"
+                    android:paddingTop="10dp" >
+
+                    <AnalogClock
+                        android:id="@+id/analog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="left"
+                    android:layout_row="0"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp" >
+
+                    <DigitalClock
+                        android:id="@+id/digital"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="15pt" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="Petek, 31.08.2012"
+                        android:textSize="8pt" />
+
+                    <TextView
+                        android:id="@+id/temp_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="Temperature: 25°C"
+                        android:textSize="8pt" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_column="2"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="40dp"
+                    android:layout_row="1"
+                    android:layout_rowSpan="2"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="8dp"
+                    android:src="@drawable/play" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_row="1"
+                    android:orientation="vertical" >
+
+                    <Spinner
+                        android:id="@+id/player_selector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/nowPlayingLabel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="&lt; Not active >"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/playButt"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:onClick="buttonPlayer"
+                                android:text="►║" />
+
+                            <Button
+                                android:id="@+id/stopButt"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="buttonPlayer"
+                                android:text="█" />
+
+                            <Button
+                                android:id="@+id/Seekleft"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:onClick="buttonPlayer"
+                                android:text="&lt;&lt;" />
+
+                            <Button
+                                android:id="@+id/Seekright"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="buttonPlayer"
+                                android:text=">>" />
+
+                            <SeekBar
+                                android:id="@+id/playerVolume"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:max="100"
+                                android:paddingTop="8dp"
+                                android:progress="0" />
+                        </LinearLayout>
+
+                        <SeekBar
+                            android:id="@+id/playerSeek"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:max="100" />
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left" >
+
+                            <TextView
+                                android:id="@+id/currentPlayingTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="6dp"
+                                android:text="0:15:21"
+                                android:textSize="7pt" />
+
+                            <TextView
+                                android:id="@+id/totalPlayingTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="6dp"
+                                android:text="0:15:21"
+                                android:textSize="7pt" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </GridLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5pt"
+                android:layout_marginTop="10pt"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Automatic actions:"
+                    android:textSize="8pt" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:orientation="horizontal" >
+
+                    <Switch
+                        android:id="@+id/autoBlindsOpenSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Automatically open blinds"
+                        android:textSize="7pt" />
+
+                    <TextView
+                        android:id="@+id/autoBlindsOpenLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:text="Currently set at: 12:00"
+                        android:textSize="7pt" />
+
+                    <Button
+                        android:id="@+id/autoBlindsOpenButton"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="10pt"
+                        android:text="Set time"
+                        android:textSize="6pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:orientation="horizontal" >
+
+                    <Switch
+                        android:id="@+id/autoBlindsCloseSwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Automatically close blinds"
+                        android:textSize="7pt" />
+
+                    <TextView
+                        android:id="@+id/autoBlindsCloseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:text="Currently set at: 12:00"
+                        android:textSize="7pt" />
+
+                    <Button
+                        android:id="@+id/autoBlindsCloseButton"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="10pt"
+                        android:text="Set time"
+                        android:textSize="6pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8pt"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/autoBlindsCloseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other actions: "
+                        android:textSize="7pt" />
+
+                    <Button
+                        android:id="@+id/modeSelector_sleep"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="10pt"
+                        android:onClick="modeSelectorListener"
+                        android:text="Sleep mode"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/modeSelector_movie"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="modeSelectorListener"
+                        android:text="Movie mode"
+                        android:textSize="6pt" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20pt"
+                    android:text="Device controls:"
+                    android:textSize="8pt" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8pt"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/autoBlindsCloseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Projector controls: "
+                        android:textSize="7pt" />
+
+                    <Button
+                        android:id="@+id/controls_projON"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="10pt"
+                        android:onClick="buttonAction"
+                        android:text="Power on"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_projinputdvia"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Input DVI-A"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_projinputdvid"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Input DVI-D"
+                        android:textSize="6pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8pt"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/autoBlindsCloseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Speaker controls: "
+                        android:textSize="7pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_volplus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="10pt"
+                        android:onClick="buttonAction"
+                        android:text="Vol +"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_volminus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Vol -"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_chan1"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Channel 1"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_chan2"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Channel 2"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_chan3"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Channel 3"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_chan4"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Channel 4"
+                        android:textSize="6pt" />
+<!-- 
+                    <Button
+                        android:id="@+id/controls_speak_suplus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Su +"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/controls_speak_suminus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Su -"
+                        android:textSize="6pt" />
+                         -->
+                    <Button
+                        android:id="@+id/controls_speak_reset"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15pt"
+                        android:layout_marginLeft="5pt"
+                        android:onClick="buttonAction"
+                        android:text="Reset"
+                        android:textSize="6pt" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/bedarija_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/tab3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5pt"
+                android:layout_marginTop="10pt" >
+
+                <LinearLayout
+                    android:id="@+id/toolbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom" >
+
+                    <Button
+                        android:id="@+id/buttonBothBlindsMinus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toolBarButton"
+                        android:text="Back" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/mediaList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/toolbar"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="top" />
+            </RelativeLayout>
+            
+            
+           <LinearLayout
+                android:id="@+id/tab4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5pt"
+                android:layout_marginTop="10pt" >
+                
+                                   <EditText
+                        android:id="@+id/debugtext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        
+android:inputType="textMultiLine"
+                        android:text="" />
+                
+                </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/tasks/resolver
+END
+ServiceResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/tasks/resolver/ServiceResolver.java
+END
+TypeResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/tasks/resolver/TypeResolver.java
+END
+DNSResolverTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/51/trunk/src/javax/jmdns/impl/tasks/resolver/DNSResolverTask.java
+END
+ServiceInfoResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/98/trunk/src/javax/jmdns/impl/tasks/resolver/ServiceInfoResolver.java
+END
