@@ -1,0 +1,13 @@
+RHome 
+version 0.1 
+Copyright 2013 Andrej Rolih
+http://rhome.r00li.com
+
+
+About:
+RHome is an open source home/room automation system based on Android and Arduino projects. It enables users to easily control lighting, blinds, control media playback and more. To see a full list of features take a look at: http://rhome.r00li.com/index.php/features
+
+Instructions for use:
+This system consists of two main parts - arduino based controller and Android based user interface/control panel. You should take a look at: http://rhome.r00li.com/index.php/hardware-software
+
+Source code for both Android device and Arduino controller is provided here. PCB schematic is also provided here. PCB was created using diptrace - diptrace is free program available here: http://www.diptrace.com
